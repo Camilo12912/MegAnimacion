@@ -1,0 +1,58 @@
+/* ===== Color Palette – Professional & Elegant ===== */
+
+/* Brand Primary – Deep Purple */
+$brand-primary: #7C3AED;
+$brand-dark: #5B21B6;
+$brand-light: #A78BFA;
+
+/* Accent – Warm Gold */
+$accent-gold: #F59E0B;
+$accent-gold-dk: #D97706;
+
+/* Neutrals */
+$text-dark: #111827;
+$text-body: #374151;
+$text-secondary: #6B7280;
+$text-light: #F9FAFB;
+
+$bg-white: #FFFFFF;
+$bg-light: #F9FAFB;
+$bg-section: #F3F4F6;
+
+$border-color: #E5E7EB;
+
+/* Utility – keep for social buttons */
+$green-primary: #10B981;
+$green-dark: #059669;
+$purple-primary: $brand-primary;
+
+/* ===== Typography ===== */
+$font-heading: 'Poppins', sans-serif;
+$font-body: 'Poppins', sans-serif;
+
+/* ===== Spacing & Radii ===== */
+$radius-sm: 8px;
+$radius-md: 14px;
+$radius-lg: 22px;
+$radius-xl: 32px;
+$radius-full: 9999px;
+
+/* ===== Shadows ===== */
+$shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.08);
+$shadow-md: 0 4px 16px rgba(0, 0, 0, 0.10);
+$shadow-lg: 0 10px 30px rgba(0, 0, 0, 0.12);
+$shadow-xl: 0 20px 50px rgba(0, 0, 0, 0.16);
+
+/* ===== Mixins ===== */
+@mixin glass {
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+}
+
+@mixin flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

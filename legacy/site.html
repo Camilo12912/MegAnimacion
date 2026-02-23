@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Meganimación – Servicios de Animación y Recreación</title>
+  <link rel="stylesheet" href="/css/style-site.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ===== Header / Navbar ===== -->
+  <header class="header">
+    <div class="container header__inner">
+      <a class="brand" href="#inicio" aria-label="Meganimación - Inicio">
+        <!-- Reemplaza por tu logo -->
+        <img src="/img/meganimacion logo.png" alt="Meganimación" />
+      </a>
+
+      <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav" role="navigation">
+        <a href="#inicio">Inicio</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#galeria">Galería</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== Hero ===== -->
+  <section id="inicio" class="hero">
+    <div class="hero__bg" role="img" aria-label="Niños y animadores celebrando"></div>
+    <div class="hero__overlay"></div>
+
+    <div class="container hero__content">
+      <h1 class="title">Más de 6 años creando eventos inolvidables y con propósito</h1>
+      <p>¡Hola MegA amigo! 
+      Somos MegAnimacion, empresa legalizada encargada de Organizar y ejecutar tu evento, social, corporativo e infantil. 
+      Utilizando la expresión artística, la música y los valores en cada experiencia en <b>Cúcuta Colombia</b>.</p>
+
+      <div class="hero__cta">
+        <a href="#servicios" class="btn btn--primary"><i class="fa-solid fa-star"></i> Ver servicios</a>
+        <a href="https://wa.me/573055553850" target="_blank" class="btn btn--whatsapp"><i class="fa-brands fa-whatsapp"></i> Cotizar por WhatsApp</a>
+      </div>
+    </div>
+
+
+  </section>
+
+  <!-- ===== Servicios ===== -->
+<section id="servicios" class="section">
+    <div class="container">
+      <h2 class="section__title">Nuestros servicios</h2>
+      <div class="grid services">
+
+        <!-- Animación infantil -->
+        <article class="card">
+          <div class="card__img"><img src="/img/servicios/infantil.jpg" alt="Animación infantil"></div>
+          <div class="card__body">
+            <h3>Animación infantil y sonido</h3>
+            <p>Recreación temática infantil, fiestas para bebes y sonido profesional.</p>
+            <button class="btn open-modal" data-modal="modal-infantil"><i class="fa-solid fa-star"></i> Ver más</button>
+          </div>
+        </article>
+
+        <!-- Juvenil -->
+        <article class="card">
+          <div class="card__img"><img src="/img/servicios/juvenil.jpg" alt="Animación juvenil"></div>
+          <div class="card__body">
+            <h3>Animación juvenil y sonido</h3>
+            <p>Pool party, fiesta neón, fiesta deportiva.</p>
+            <button class="btn open-modal" data-modal="modal-juvenil"><i class="fa-solid fa-star"></i> Ver más</button>
+          </div>
+        </article>
+
+        <!-- Baby shower -->
+        <article class="card">
+          <div class="card__img"><img src="/img/servicios/babyshower.jpg" alt="Baby shower"></div>
+          <div class="card__body">
+            <h3>Baby shower y revelación</h3>
+            <p>Animación, sonido, iluminación y juegos especiales.</p>
+            <button class="btn open-modal" data-modal="modal-baby"><i class="fa-solid fa-star"></i> Ver más</button>
+          </div>
+        </article>
+
+        <!-- Pool party -->
+        <article class="card">
+          <div class="card__img"><img src="/img/servicios/poolparty.jpg" alt="Pool party"></div>
+          <div class="card__body">
+            <h3>Pool party</h3>
+            <p>Fiestas en piscina con cañón de espuma e inflables.</p>
+            <button class="btn open-modal" data-modal="modal-pool"><i class="fa-solid fa-star"></i> Ver más</button>
+          </div>
+        </article>
+
+        <!-- Shows -->
+        <article class="card">
+          <div class="card__img"><img src="/img/servicios/shows.jpg" alt="Shows temáticos"></div>
+          <div class="card__body">
+            <h3>Shows temáticos y personajes</h3>
+            <p>Musicales, BTL empresarial y visitas a colegios.</p>
+            <button class="btn open-modal" data-modal="modal-shows"><i class="fa-solid fa-star"></i> Ver más</button>
+          </div>
+        </article>
+
+        <!-- Comida -->
+        <article class="card">
+          <div class="card__img"><img src="/img/servicios/comida.jpg" alt="Comida"></div>
+          <div class="card__body">
+            <h3>Estaciones de comida</h3>
+            <p>Snacks dulces y salados para tus invitados.</p>
+            <button class="btn open-modal" data-modal="modal-comida"><i class="fa-solid fa-star"></i> Ver más</button>
+          </div>
+        </article>
+
+        <!-- Atracciones -->
+        <article class="card">
+          <div class="card__img"><img src="/img/servicios/atracciones.jpg" alt="Atracciones"></div>
+          <div class="card__body">
+            <h3>Atracciones</h3>
+            <p>Parques infantiles, ferias y juegos inflables.</p>
+            <button class="btn open-modal" data-modal="modal-atracciones"><i class="fa-solid fa-star"></i> Ver más</button>
+          </div>
+        </article>
+
+        <!-- Empresariales -->
+        <article class="card">
+          <div class="card__img"><img src="/img/servicios/empresarial.jpg" alt="Empresariales"></div>
+          <div class="card__body">
+            <h3>Eventos empresariales</h3>
+            <p>Animación masiva, rallys deportivos y catering.</p>
+            <button class="btn open-modal" data-modal="modal-empresarial"><i class="fa-solid fa-star"></i> Ver más</button>
+          </div>
+        </article>
+
+        <!-- Adicionales -->
+        <article class="card">
+          <div class="card__img"><img src="/img/servicios/adicionales.jpg" alt="Servicios adicionales"></div>
+          <div class="card__body">
+            <h3>Servicios adicionales</h3>
+            <p>Meseros, carpas, sillas y decoración.</p>
+            <button class="btn open-modal" data-modal="modal-adicionales"><i class="fa-solid fa-star"></i> Ver más</button>
+          </div>
+        </article>
+
+        <!-- Halloween -->
+        <article class="card">
+          <div class="card__img"><img src="/img/servicios/halloween.jpg" alt="Halloween"></div>
+          <div class="card__body">
+            <h3>Fiesta de Halloween</h3>
+            <p>Animación, cazacalabaza, shows y atracciones.</p>
+            <button class="btn open-modal" data-modal="modal-halloween"><i class="fa-solid fa-star"></i> Ver más</button>
+          </div>
+        </article>
+
+        <!-- Navidad -->
+        <article class="card">
+          <div class="card__img"><img src="/img/servicios/navidad.jpg" alt="Navidad"></div>
+          <div class="card__body">
+            <h3>Fiestas de Navidad</h3>
+            <p>Shows de Noel, personajes navideños y novenas.</p>
+            <button class="btn open-modal" data-modal="modal-navidad"><i class="fa-solid fa-star"></i> Ver más</button>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Modales (uno por servicio) ===== -->
+  <div id="modals">
+<!-- ===== MODAL PRINCIPAL: Animación Infantil ===== -->
+<div id="modal-infantil" class="modal">
+  <div class="modal__content">
+    <span class="modal__close">&times;</span>
+    <h2>Animación infantil y sonido</h2>
+    <p>Selecciona una de nuestras experiencias MegA:</p>
+
+    <div class="modal__options">
+      <button class="btn btn--option open-modal" data-modal="modal-fiesta-infantil" data-parent="modal-infantil">🧸 Fiesta Infantil</button>
+      <button class="btn btn--option open-modal" data-modal="modal-baby-fiesta" data-parent="modal-infantil">🎈 Baby Fiesta</button>
+    </div>
+
+    <div class="modal__notes">
+      <p>🎁 <b>Por la compra de cualquier servicio</b> te obsequiamos la tarjeta de invitación personalizada.</p>
+      <p>⏰ <b>Duración:</b> entre 1 y 3 horas según el servicio contratado.</p>
+      <p>🚗 <b>Nota de transporte:</b> cubre solo el casco urbano de Cúcuta. Lugares aledaños tienen costo adicional.</p>
+      <p>👶 <b>Recomendación:</b> toma en cuenta la cantidad de niños para una mejor experiencia.</p>
+    </div>
+  </div>
+</div>
+
+<!-- ===== SUBMODAL: Fiesta Infantil ===== -->
+<div id="modal-fiesta-infantil" class="modal">
+  <div class="modal__content">
+    <span class="modal__close">&times;</span>
+    <h2>🎉 Fiesta Infantil</h2>
+    <p>Selecciona el tipo de paquete de animación:</p>
+    <div class="modal__options">
+      <button class="btn btn--option open-modal" data-modal="modal-solo-animacion" data-parent="modal-fiesta-infantil">🎭 Solo Animación</button>
+      <button class="btn btn--option open-modal" data-modal="modal-sonido-medio" data-parent="modal-fiesta-infantil">🎵 Animación con sonido medio</button>
+      <button class="btn btn--option open-modal" data-modal="modal-sonido-completo" data-parent="modal-fiesta-infantil">🔊 Animación con sonido completo</button>
+    </div>
+  </div>
+</div>
+
+<!-- ===== SUBMODAL: Baby Fiesta ===== -->
+<div id="modal-baby-fiesta" class="modal">
+  <div class="modal__content">
+    <span class="modal__close">&times;</span>
+    <h2>🍼 Baby Fiesta</h2>
+    <p>Selecciona una experiencia especial para bebés:</p>
+    <div class="modal__options">
+      <button class="btn btn--option open-modal" data-modal="modal-fiesta-musical" data-parent="modal-baby-fiesta">🎵 Fiesta Musical</button>
+      <button class="btn btn--option open-modal" data-modal="modal-baby-sonido" data-parent="modal-baby-fiesta">🎤 Animación con sonido completo</button>
+      <button class="btn btn--option open-modal" data-modal="modal-canticuento" data-parent="modal-baby-fiesta">📚 Canticuento sensorial</button>
+      <button class="btn btn--option open-modal" data-modal="modal-atraccion-bebes" data-parent="modal-baby-fiesta">🧩 Atracción para bebés</button>
+    </div>
+  </div>
+</div>
+
+<!-- ===== SUBMODALES DETALLE ===== -->
+<div id="modal-solo-animacion" class="modal">
+  <div class="modal__content">
+    <span class="modal__close">&times;</span>
+    <h2>🎭 Solo Animación</h2>
+    <p>Incluye recreación temática, concursos, maquillaje artístico y MegA hora loca.</p>
+    <p><b>Capacidad recomendada:</b> hasta 20 niños.</p>
+    <img src="/img/servicios/portafolio solo recreacion.jpeg" alt="Solo Animación">
+  </div>
+</div>
+
+<div id="modal-sonido-medio" class="modal">
+  <div class="modal__content">
+    <span class="modal__close">&times;</span>
+    <h2>🎵 Animación con sonido medio</h2>
+    <p>Incluye animación completa con sonido intermedio, micrófono y música personalizada.</p>
+    <p><b>Capacidad recomendada:</b> hasta 30 niños.</p>
+    <img src="/img/servicios/sonido-medio.jpg" alt="Sonido Medio">
+  </div>
+</div>
+
+<div id="modal-sonido-completo" class="modal">
+  <div class="modal__content">
+    <span class="modal__close">&times;</span>
+    <h2>🔊 Animación con sonido completo</h2>
+    <p>Incluye animación profesional, sonido completo, luces LED y música temática.</p>
+    <p><b>Capacidad recomendada:</b> hasta 50 niños.</p>
+    <img src="/img/servicios/sonido-completo.jpg" alt="Sonido Completo">
+  </div>
+</div>
+
+<div id="modal-fiesta-musical" class="modal">
+  <div class="modal__content">
+    <span class="modal__close">&times;</span>
+    <h2>🎵 Fiesta Musical</h2>
+    <p>Show interactivo con canciones infantiles, burbujas y actividades de expresión corporal.</p>
+    <p><b>Valor:</b> $850.000</p>
+    <img src="/img/servicios/fiesta-musical.jpg" alt="Fiesta Musical">
+  </div>
+</div>
+
+<div id="modal-baby-sonido" class="modal">
+  <div class="modal__content">
+    <span class="modal__close">&times;</span>
+    <h2>🎤 Animación con sonido completo</h2>
+    <p>Animación especial para bebés con música suave, micrófono, juegos y personajes tiernos.</p>
+    <p><b>Valor:</b> $500.000</p>
+    <img src="/img/servicios/baby-sonido.jpg" alt="Animación con sonido completo">
+  </div>
+</div>
+
+<div id="modal-canticuento" class="modal">
+  <div class="modal__content">
+    <span class="modal__close">&times;</span>
+    <h2>📚 Canticuento sensorial</h2>
+    <p>Presentación de cuentos musicales interactivos con texturas, luces y actividades sensoriales.</p>
+    <p><b>Valor:</b> $450.000</p>
+    <img src="/img/servicios/canticuento.jpg" alt="Canticuento sensorial">
+  </div>
+</div>
+
+<div id="modal-atraccion-bebes" class="modal">
+  <div class="modal__content">
+    <span class="modal__close">&times;</span>
+    <h2>🧩 Atracción para bebés</h2>
+    <ul class="modal__list">
+      <li>🎠 Baby Gym con pelotas</li>
+      <li>🏰 Inflables</li>
+      <li>🧑‍🍳 Juego de Roles</li>
+      <li>🧪 Mesa sensorial</li>
+      <li>💦 Parque acuático</li>
+    </ul>
+    <p><i>Espacio disponible para precios y fotografías.</i></p>
+    <img src="/img/servicios/atraccion-bebes.jpg" alt="Atracciones para bebés">
+  </div>
+</div>
+</div>
+
+<!-- ===== Modal principal: Animación Juvenil ===== -->
+<div id="modal-juvenil" class="modal">
+  <div class="modal__content">
+    <span class="modal__close">&times;</span>
+    <h2 class="modal__title">🎉 Animación juvenil</h2>
+    <p class="modal__subtitle">Selecciona una de nuestras experiencias MegA juveniles:</p>
+
+    <div class="modal__options">
+      <button class="btn btn--option open-modal" data-modal="modal-juvenil-solo">
+        🎤 Solo animación
+      </button>
+      <button class="btn btn--option open-modal" data-modal="modal-juvenil-mediano">
+        🔊 Animación con sonido mediano
+      </button>
+      <button class="btn btn--option open-modal" data-modal="modal-juvenil-completo">
+        🎧 Animación con sonido completo
+      </button>
+      <button class="btn btn--option open-modal" data-modal="modal-juvenil-deportiva">
+        ⚽ Fiesta deportiva
+      </button>
+      <button class="btn btn--option open-modal" data-modal="modal-juvenil-acuatica">
+        🌊 Fiesta acuática
+      </button>
+      <button class="btn btn--option open-modal" data-modal="modal-juvenil-reguetoneros">
+        🎵 Personajes reguetoneros
+      </button>
+      <button class="btn btn--option open-modal" data-modal="modal-juvenil-glitter">
+        💫 Maquillaje glitter neón y tatuajes
+      </button>
+    </div>
+
+    <!-- Notas informativas (más discretas) -->
+    <div class="modal__notes">
+      <p>⏰ <b>Duración:</b> entre 1 y 3 horas según el servicio contratado.</p>
+      <p>🚗 <b>Nota de transporte:</b> cubre solo el casco urbano de Cúcuta. Lugares aledaños tienen costo adicional.</p>
+      <p>👶 <b>Recomendación:</b> toma en cuenta la cantidad de jovenes para una mejor experiencia.</p>
+    </div>
+  </div>
+</div>
+
+<!-- ===== Submodales Animación Juvenil ===== -->
+
+<!-- Solo animación -->
+<div id="modal-juvenil-solo" class="modal">
+  <div class="modal__content">
+    <span class="modal__close">&times;</span>
+    <h2>🎤 Solo animación</h2>
+    <p>Incluye dinámicas, coreografías, juegos y concursos juveniles. Ideal para grupos de hasta <b>20 jóvenes</b>.</p>
+    <img src="/img/servicios/juvenil-solo.jpg" alt="Solo animación juvenil">
+  </div>
+</div>
+
+<!-- Sonido mediano -->
+<div id="modal-juvenil-mediano" class="modal">
+  <div class="modal__content">
+    <span class="modal__close">&times;</span>
+    <h2>🔊 Animación con sonido mediano</h2>
+    <p>Incluye animación, micrófono profesional y sonido mediano. Recomendado para <b>hasta 30 jóvenes</b>.</p>
+    <img src="/img/servicios/juvenil-mediano.jpg" alt="Sonido mediano juvenil">
+  </div>
+</div>
+
+<!-- Sonido completo -->
+<div id="modal-juvenil-completo" class="modal">
+  <div class="modal__content">
+    <span class="modal__close">&times;</span>
+    <h2>🎧 Animación con sonido completo</h2>
+    <p>Animación completa con luces, sonido profesional y DJ. Ideal para <b>hasta 50 jóvenes</b>.</p>
+    <img src="/img/servicios/juvenil-completo.jpg" alt="Animación juvenil completa">
+  </div>
+</div>
+
+<!-- Fiesta deportiva -->
+<div id="modal-juvenil-deportiva" class="modal">
+  <div class="modal__content">
+    <span class="modal__close">&times;</span>
+    <h2>⚽ Fiesta deportiva</h2>
+    <p>Incluye animación con <b>rally deportivo</b> o <b>animación y partido de fútbol</b>, con premiaciones y ambiente juvenil.</p>
+    <img src="/img/servicios/juvenil-deportiva.jpg" alt="Fiesta deportiva juvenil">
+  </div>
+</div>
+
+<!-- Fiesta acuática -->
+<div id="modal-juvenil-acuatica" class="modal">
+  <div class="modal__content">
+    <span class="modal__close">&times;</span>
+    <h2>🌊 Fiesta acuática</h2>
+    <p>Perfecta para piscinas: incluye <b>rally acuático</b> o <b>animación y rally acuático</b> con seguridad y música.</p>
+    <img src="/img/servicios/juvenil-acuatica.jpg" alt="Fiesta acuática juvenil">
+  </div>
+</div>
+
+<!-- Personajes reguetoneros -->
+<div id="modal-juvenil-reguetoneros" class="modal">
+  <div class="modal__content">
+    <span class="modal__close">&times;</span>
+    <h2>🎵 Personajes reguetoneros</h2>
+    <p>Animación moderna con personajes urbanos, coreografías y ambientación reguetonera. ¡La fiesta más encendida!</p>
+    <img src="/img/servicios/reguetoneros.jpg" alt="Personajes reguetoneros">
+  </div>
+</div>
+
+<!-- Maquillaje glitter -->
+<div id="modal-juvenil-glitter" class="modal">
+  <div class="modal__content">
+    <span class="modal__close">&times;</span>
+    <h2>💫 Maquillaje glitter neón y tatuajes</h2>
+    <p>Incluye maquillaje artístico con glitter y tatuajes temporales neón. Perfecto para fiestas neón o temáticas.</p>
+    <img src="/img/servicios/glitter-neon.jpg" alt="Maquillaje glitter neón y tatuajes">
+  </div>
+</div>
+
+    <div id="modal-baby" class="modal"><div class="modal__content"><span class="modal__close">&times;</span><h2>Baby shower y revelación</h2><p>Animación para adultos, sonido e iluminación, juegos personalizados.</p><img src="/img/servicios/babyshower.jpg" alt=""></div></div>
+    <div id="modal-pool" class="modal"><div class="modal__content"><span class="modal__close">&times;</span><h2>Pool party</h2><p>Fiesta en piscina con cañón de espuma, inflables y rallys acuáticos.</p><img src="/img/servicios/poolparty.jpg" alt=""></div></div>
+    <div id="modal-shows" class="modal"><div class="modal__content"><span class="modal__close">&times;</span><h2>Shows temáticos y personajes</h2><p>Shows musicales, BTL empresarial, visitas a colegios y sorpresas.</p><img src="/img/servicios/shows.jpg" alt=""></div></div>
+    <div id="modal-comida" class="modal"><div class="modal__content"><span class="modal__close">&times;</span><h2>Estaciones de comida</h2><p>Snacks dulces y salados para todos tus invitados.</p><img src="/img/servicios/comida.jpg" alt=""></div></div>
+    <div id="modal-atracciones" class="modal"><div class="modal__content"><span class="modal__close">&times;</span><h2>Atracciones</h2><p>Parques infantiles, juegos inflables y ferias de circo.</p><img src="/img/servicios/atracciones.jpg" alt=""></div></div>
+    <div id="modal-empresarial" class="modal"><div class="modal__content"><span class="modal__close">&times;</span><h2>Eventos empresariales</h2><p>Animación masiva, rallys deportivos, bingos bailables y catering.</p><img src="/img/servicios/empresarial.jpg" alt=""></div></div>
+    <div id="modal-adicionales" class="modal"><div class="modal__content"><span class="modal__close">&times;</span><h2>Servicios adicionales</h2><p>Meseros, carpas, sillas, mesas y decoración básica.</p><img src="/img/servicios/adicionales.jpg" alt=""></div></div>
+    <div id="modal-halloween" class="modal"><div class="modal__content"><span class="modal__close">&times;</span><h2>Fiesta de Halloween</h2><p>Shows, cazacalabaza, estaciones de comida y atracciones terroríficas.</p><img src="/img/servicios/halloween.jpg" alt=""></div></div>
+    <div id="modal-navidad" class="modal"><div class="modal__content"><span class="modal__close">&times;</span><h2>Fiestas de Navidad</h2><p>Show de familia Noel, personajes, entrega de regalos y novenas musicales.</p><img src="/img/servicios/navidad.jpg" alt=""></div></div>
+  </div>
+
+
+<section id="galeria" class="section section--alt">
+  <div class="container">
+    <h2 class="section__title">Galería</h2>
+
+    <div class="gallery-carousel">
+      <button class="carousel-btn prev">&#10094;</button>
+
+      <div class="carousel-track">
+        <div class="carousel-item">
+          <img src="/img/megabotargas.png" alt="Show 1">
+        </div>
+        <div class="carousel-item">
+          <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?q=80&w=1200" alt="Show 2">
+        </div>
+        <div class="carousel-item">
+          <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?q=80&w=1200" alt="Show 3">
+        </div>
+        <div class="carousel-item">
+          <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?q=80&w=1200" alt="Show 4">
+        </div>
+      </div>
+
+      <button class="carousel-btn next">&#10095;</button>
+    </div>
+  </div>
+</section>
+
+
+
+<section id="contacto" class="contacto-section">
+  <div class="contacto-container">
+    <div class="contacto-info">
+      <h2 class="contacto-title">Contáctanos</h2>
+      <p>¿Tienes un evento o proyecto en mente? ¡Hablemos!</p>
+      <p><i class="fa-solid fa-phone"></i> +57 3133493403</p>
+      <p><i class="fa-solid fa-envelope"></i> meganimacion.eventos@gmail.com</p>
+      <p><i class="fa-solid fa-location-dot"></i> Cúcuta, Colombia</p>
+
+      <div class="contacto-socials">
+        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+      </div>
+    </div>
+
+    <form class="contacto-form">
+      <h3>Envíanos un mensaje</h3>
+      <input type="text" placeholder="Nombre completo" required>
+      <input type="email" placeholder="Correo electrónico" required>
+      <textarea rows="4" placeholder="Cuéntanos sobre tu evento..." required></textarea>
+      <button type="submit">Enviar mensaje</button>
+    </form>
+  </div>
+
+  <footer class="contacto-footer">
+    © 2025 Meganimación. Todos los derechos reservados.
+  </footer>
+</section>
+
+
+
+
+
+  <script>
+    // Menú móvil
+    const toggle = document.querySelector('.nav-toggle');
+    const nav = document.querySelector('.nav');
+    toggle.addEventListener('click', () => {
+      const expanded = toggle.getAttribute('aria-expanded') === 'true';
+      toggle.setAttribute('aria-expanded', !expanded);
+      nav.classList.toggle('is-open');
+      toggle.classList.toggle('is-open');
+    });
+  </script>
+  
+  <script src="/js/scripts.js"></script>
+</body>
+
+</html>
